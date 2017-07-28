@@ -52,6 +52,13 @@ Commit a change to the repo that will fail the build. For example, for a node.js
 /// snip  ///
 ```
 
+Once the build fails, a notification will be sent to the recipients saved in the form layout (unless subscriptions were set up).
+
+<kbd>
+	<img src="media/Email.png" width="400">
+</kbd>
+
+
 # Troubleshooting
 In the repo Settings > Webhooks section, each webhook has a `View Requests` button. This shows the details of the HTTP request from pipelines out to xMatters. Review this list for any errors:
 
