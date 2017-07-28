@@ -11,10 +11,9 @@ Build, test and deploy, and with this integration, alert, from Bitbucket. This i
 * [BitbucketPipeline.zip](BitbucketPipeline.zip) - The comm plan with integration builder scripts and message templates.
 
 # How it works
-STUFF HERE
+After the build status changes, a webhook is fired to the xMatters integration builder. The script in the IB inspects the build type and status and if it is a failed build, a new event is created targeting the default recipients in the form. 
 
 # Installation
-
 
 ## xMatters set up
 1. Login to the xMatters account and navigate to the Developer tab. 
@@ -29,13 +28,13 @@ STUFF HERE
 2. Click Settings > Webhooks:
 
 <kbd>
-	<img src="media/Settings-Webhook.png" width="400">
+	<img src="media/Settings-Webhook.png" width="600">
 </kbd>
 
 3. Click Add Webhook and enter a title and paste in the url from the inbound integration. Check `Build status updated`. Other boxes can be checked, but keep in mind this integration was built with the intent of notifying on failed builds, so the integration script will need to be updated to reflect other options. 
 
 <kbd>
-	<img src="media/New-Webhook.png" width="200">
+	<img src="media/New-Webhook.png" width="400">
 </kbd>
 
 4. Click Save.
