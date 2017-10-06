@@ -2,8 +2,15 @@
 # Bitbucket Pipelines
 Build, test and deploy, and with this integration, alert, from Bitbucket. This integration adds xMatters messaging to the build failed notifications from the pipeline. 
 
+
+<kbd>
+  <img src="https://github.com/xmatters/xMatters-Labs/raw/master/media/disclaimer.png">
+</kbd>
+
+
 Check out the video:
-[![IMAGE ALT TEXT](media/VideoPreview.png)](media/Pipelines.mov?raw=true "Pipelines video")
+
+[![IMAGE ALT TEXT HERE](https://img.youtube.com/vi/drhk8P-0RYY/0.jpg)](https://youtu.be/drhk8P-0RYY)
 
 # Pre-Requisites
 * Bitbucket account - [Get one](https://bitbucket.org/)! 
