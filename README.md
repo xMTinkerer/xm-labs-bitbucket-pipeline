@@ -30,7 +30,7 @@ After the build status changes, a webhook is fired to the xMatters integration b
 1. Login to the xMatters account and navigate to the Developer tab. 
 2. Import the [BitbucketPipeline.zip](BitbucketPipeline.zip) Workflow. 
 3. Click Edit > Integration Builder next to the Bitbucket Pipeline Workflow.
-4. Expand the inbound integrations and click the link for `Inbound from Bitbucket Pipeline`. Scroll down and copy the url at the bottom. Save for later. 
+4. Open up the **Build Failed** Flow and click on the `Inbound from Bitbucket Pipeline` step. Copy the URL in the step and save for later.
 5. Click the Form tab and Edit > Layout. Enter the targeted recipients in the recipients box. Alternatively, subscription panels can be added to let users subscribe to notifications. See [here](https://help.xmatters.com/OnDemand/xmodwelcome/communicationplanbuilder/subscriptionforms.htm?cshid=SubscriptionFormListPlace) for details. 
 
 
@@ -42,7 +42,7 @@ After the build status changes, a webhook is fired to the xMatters integration b
   <img src="media/Settings-Webhook.png" width="600">
 </kbd>
 
-3. Click Add Webhook and enter a title and paste in the url from the inbound integration. Check `Build status updated`. Other boxes can be checked, but keep in mind this integration was built with the intent of notifying on failed builds, so the integration script will need to be updated to reflect other options. 
+3. Click Add Webhook and enter a title and paste in the url from the step. Check `Build status updated`. Other boxes can be checked, but keep in mind this integration was built with the intent of notifying on failed builds, so the integration script will need to be updated to reflect other options. 
 
 <kbd>
   <img src="media/New-Webhook.png" width="400">
